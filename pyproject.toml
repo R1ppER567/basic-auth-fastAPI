@@ -1,0 +1,16 @@
+[project]
+name = "fastapi-stepik"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bcrypt>=4.3.0",
+    "fastapi>=0.116.1",
+    "mypy>=1.17.1",
+    "passlib>=1.7.4",
+    "pydantic-settings>=2.10.1",
+    "ruff>=0.12.9",
+    "types-passlib>=1.7.7.20250602",
+    "uvicorn>=0.35.0",
+]
